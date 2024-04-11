@@ -1,0 +1,12 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column; /* Встановлюємо напрямок в стовпчик для розміщення Navbar і content */
+  height: 100vh;
+}
+  
+.content-container {
+  display: flex;
+  flex: 1; /* Займає доступний вільний простір в стовпчиковому напрямку */
+}
+  
+  /* Застилізуйте ваш Sidebar та Order1 як вам потрібно, відсутність фіксованих ширин, можливо вказавши flex-grow та flex-shrink */

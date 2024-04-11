@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+
+.sidebar {
+  background-color: #212529;
+  color: white;
+  z-index: 1;
+ 
+  min-width: 200px;
+
+  height: 100%; /* Full height */
+  transform: translateX(0); /* Start visible */
+  transition: transform 0.3s ease-in-out; /* Анімація трансформації та ширини */
+}
+
+.hide {
+  transform: translateX(-100%); /* Заховуємо сайдбар, переміщаючи його вліво */
+  position: absolute;
+}
+
+.content {
+  transition: margin-left 0.3s ease-in-out; /* Animates margin change */
+  margin-left: 0; /* Start with no margin */
+  /* Other styles for your content */
+}
+
+.content.with-sidebar {
+  margin-left: 200px; /* Adjust to the width of the sidebar */
+}
+
+.botton-hide {
+  position: relative;
+    background: #212529;
+    z-index: 0;
+    border: none;
+    height: 100%;
+    color: #000000;
+
+}
+
+.sidebar.hide + .botton-hide {
+  left: 0;
+}
+
+.move-to-edge {
+  left: 0;
+    background: white;
+}
+  
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 31px;
+}
+
+.sidebar a.active {
+  color: white;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #6A6A6A;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: larger;
+  font-weight: 600;
+}
+
+a {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #6b6b6b;
+  padding-bottom: 4px;
+}
+
+.text {
+  display: contents;
+}
+
+.logout-button {
+  text-decoration: none;
+  color: #6A6A6A;
+  background-color: #212529;
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: larger;
+  font-weight: 600;
+}
+

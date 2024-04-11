@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+.leaflet-control-fullscreen {
+    background: white;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .custom-draw-icon::before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f303"; /* This is the Unicode for faPencilAlt */
+  }
+
+  .leaflet-popup-content{
+    font-family: 'Inter', sans-serif;
+
+  }
+
+  .leaflet-control-attribution{
+    display: none;
+  }
+
+
+  .fade-in-line {
+  color:rgb(0, 141, 206) /* Анімація триватиме 2 секунди */
+}
+

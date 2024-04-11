@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.analytics-cards {
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+    /* Add more styles as necessary */
+  }
+  
+  .card {
+    background: #FFFFFF;
+    padding: 20px;
+    padding-top: 22px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Add more styles as necessary */
+  }
+  
+  .card-value {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    /* Add more styles as necessary */
+  }
+  
+  .card-label {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #666;
+    /* Add more styles as necessary */
+  }
+  
+  .card-change {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    /* Add more styles as necessary */
+  }
+  
+  .card-change.positive {
+    color: #4CAF50;
+    /* Add more styles as necessary */
+  }
+  
+  .card-change.negative {
+    color: #F44336;
+    /* Add more styles as necessary */
+  }
+
+  .card-table {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.analytics-cards-col {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 20px;
+}
+
+.card1 {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card1-value, .card1-label-1 {
+  margin: 0;
+}
+
+.card-label-1 {
+  font-size: 25px;
+  padding-top:10px ;
+  font-family: 'Inter', sans-serif;
+  color: #666;
+  /* Add more styles as necessary */
+}
+
+.couriers-table1 {
+  width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 11px;
+}
+
+.couriers-table1 th, .couriers-table1 td {
+  border: 1px solid #DDD;
+  font-family: 'Inter', sans-serif;
+  padding: 8px;
+}
+
+.couriers-table1 th {
+  background-color: #F3F3F3;
+}

@@ -1,0 +1,50 @@
+.btn-password {
+    background-color: transparent;
+    border: none;
+    color: #526484;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+}
+
+.btn-password:hover {
+    opacity: 0.8; 
+}
+
+.password-container {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.password-container input {
+    padding-right: 60px; 
+}
+
+.toggle-password-visibility, .generate-password {
+    position: absolute; 
+    right: 5px; 
+}
+
+.generate-password {
+    right: 35px; 
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}

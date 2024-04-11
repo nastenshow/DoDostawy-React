@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+p{
+  font-weight: 600;
+    font-size: 13px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center vertically */
+  align-items: center;      /* Center horizontally */
+  height: 100vh;            /* Full viewport height */
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+  
+.input-field {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.input-field:first-of-type {
+  outline: none;
+  margin-bottom: 15px;
+}
+  
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #526484;
+  color: #fff;
+  border: none;
+  font-size: 23px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.centering-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers children vertically */
+  align-items: center; /* centers children horizontally */
+  height: 89vh; /* full height of the viewport */
+}
+
+
+  
+.box .group {
+  height: 50px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 353px;
+}
+  
+.box .overlap-group {
+  background-color: #ffffff;
+  border: 1px solid;
+  width: 100%;
+  border-color: #e4e4e4;
+  border-radius: 12px;
+  height: 50px;
+  position: relative;
+  width: 349px;
+}
+  
+.box .line {
+  height: 37px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+  left: 60px;
+}
+  
+.box .icon-envelope {
+  height: 14px;
+  color: #526484;
+  left: 25px;
+  position: absolute;
+  top: 18px;
+  width: 18px;
+}
+  
+.box .text-wrapper {
+  color: #949494;
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  width: 75px;
+}
+  
+.box .gmail-com {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  width: calc(100% - 94px);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 19px;
+  display: block;
+  color:#252525;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 23px;
+  margin-left: 72px;
+  white-space: nowrap;
+}
+  
+.loading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Розподіляє контент між лівим і правим кінцями */
+  align-items: center; /* Вирівнює контент по вертикалі */
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  padding: 20px 0;
+  box-sizing: border-box; /* Додано, щоб padding не збільшував загальний розмір контейнера */
+  padding-left: 5%; /* Забезпечте деякий відступ зліва */
+  padding-right: 5%; /* Забезпечте деякий відступ справа */
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px; /* Встановлює відстань між посиланнями */
+}
+
+/* Видаляємо ширину, так як вона тепер контролюється flexbox у .footer-container */
+.footer-links {
+  width: auto;
+}
+.footer-column {
+  display: contents;
+  /* flex-direction: column; */
+  font-size: 14px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* .container{display: none;}
+.contact{display: none;} */
+
+
+nav {
+  background-color: #343A40;
+  padding-top: 26px;
+  z-index: 1;
+  position: relative;
+  max-width: 4000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
